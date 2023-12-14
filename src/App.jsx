@@ -1,4 +1,4 @@
-import {MainPage,Login, Signup} from './components/index'
+import {MainPage,Login, Signup, Profile} from './components/index'
 import{BrowserRouter as Router,Routes,Route} from "react-router-dom"
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
         <Route exact path='/' element={<MainPage />}/>
         <Route exact path='/login' element={<Login/>}/>
         <Route exact path='/signup' element={<Signup/>}/>
+        <Route exact path='/profile' element={<Profile/>}/>
       </Routes>
      </Router>
 

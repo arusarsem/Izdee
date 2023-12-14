@@ -27,14 +27,13 @@ const Home = () => {
         <div>
           <div className="font-bold text-xs text-Teal mb-4">
             {" "}
-            your e-learning partner
+            IZDE
           </div>
           <div className="sm:text-[2.5rem] text-[1.825rem] font-bold">
-            This is <br /> the new way <br /> to learn online
+            Your<br /> future <br /> starts here 
           </div>
           <p className="text-sm leading-7 text-gray max-w-sm">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
-            officia sit vitae quo, eum similique?
+           Start your journey with us
           </p>
           <div className="mt-6">
             <button className="px-6 py-3 font-bold text-white bg-Teal rounded-lg mr-4 text-sm">
@@ -51,9 +50,9 @@ const Home = () => {
       </div>
       <div>
         <p className="text-center text-xl">
-          We collaborate with{" "}
+          We help you with{" "}
           <span className="text-Teal">
-            100+ leading universities ans companies
+            internship and Master degree programs
           </span>
         </p>
         <motion.div

@@ -1,46 +1,20 @@
-
-import { BrowserRouter, Route, RouterProvider, Routes } from "react-router-dom";
-import {
-  Navbar,
-  Home,
-  About,
-  Teacher,
-  Contact,
-  Courses,
-  Footer,
-  Login,
-} from "./components/index";
-
-
+import {MainPage,Login, Signup} from './components/index'
+import{BrowserRouter as Router,Routes,Route} from "react-router-dom"
 
 function App() {
   return (
+    <div>
+     <Router>
+      <Routes>
+        <Route exact path='/' element={<MainPage />}/>
+        <Route exact path='/login' element={<Login/>}/>
+        <Route exact path='/signup' element={<Signup/>}/>
+      </Routes>
+     </Router>
 
-    
-
-
-    <div className="font-Poppins bg-Solitude">
-      <Navbar />
-      <Home />
-      <About />
-      <Courses />
-      <Teacher />
-      <Contact />
-      <Footer />
       
-
-      {/* <BrowserRouter>
-    <Routes>
-      <Route path="/login" element={<Login/>}/>
-
-    </Routes>
-    </BrowserRouter> */}
-
-    {/* <RouterProvider router={router} /> */}
     </div>
-
-
   );
 }
 
-export default App;
+export default App

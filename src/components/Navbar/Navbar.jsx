@@ -4,10 +4,21 @@ import { HiMenuAlt1, HiX } from "react-icons/hi";
 import MobileNavLinks from "./MobileNavLinks";
 import NavLink from "./NavLink";
 import { motion } from "framer-motion";
+import { database } from "../container/Firebase";
+import { useNavigate } from "react-router-dom";
+import { signOut } from "firebase/auth";
 import { useLinkClickHandler } from "react-router-dom";
 
 
 const Navbar = () => {
+
+  const history=useNavigate()
+  const handleClick=()=>{
+    signOut(database).then(val=>{
+    console.log(val,"val")
+    history('/login')
+    })
+  }
   const [toggle, setToggle] = useState(false);
   const [active, setActive] = useState(null);
 
@@ -19,6 +30,8 @@ const Navbar = () => {
     window.addEventListener("scroll", scrollActive);
     return () => window.removeEventListener("scroll", scrollActive);
   }, [active]);
+
+
   return (
     <div
       className={`${
@@ -45,8 +58,8 @@ const Navbar = () => {
               return <NavLink key={navLink.id} {...navLink} />;
             })}
           </div>
-          <button className="py-3 px-6 font-bold text-sm border border-solid rounded-lg border-gray" onClick={useLinkClickHandler} to='login'>
-            Login
+          <button className="py-3 px-6 font-bold text-sm border border-solid rounded-lg border-gray" onClick={handleClick}>
+            Sign Out
           </button>
           {/* <NavLink className='nav-link' onClick={clickHandler} to='/login'>
             Login

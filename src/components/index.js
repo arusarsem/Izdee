@@ -11,5 +11,5 @@ import MainPage from "./container/MainPage";
 import Profile from "./Profile";
 // import Mentors from "./container/Mentors";
 // import Program from "./container/Program";
-
-export { Navbar, Home, About, Courses, Teacher,Contact, Footer, Login,Signup, MainPage, Profile};
+import Mentors from "./container/Mentors";
+export { Navbar, Home, About, Courses, Teacher,Contact, Footer, Login,Signup, MainPage, Profile, Mentors};

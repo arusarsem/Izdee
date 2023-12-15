@@ -101,7 +101,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 const navigation = [
   { name: 'Home', href: '#', current: true },
   { name: 'Mentors', href: '/mentors', current: false },
-  { name: 'Program', href: '#', current: false },
+  { name: 'Program', href: '/programs', current: false },
   { name: 'Sign in', href: '/login', current: false },
 ]
 
@@ -210,7 +210,7 @@ export default function Example() {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/login"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Sign out

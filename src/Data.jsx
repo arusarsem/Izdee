@@ -70,57 +70,28 @@ export const categories = [
   },
 ];
 
-export const mentorlist = [
-  {
-    name: 'Askar Aituov',
-    role: 'Co-Founder / CEO',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
-  {
-    name: 'Vladimir Popov',
-    role: 'Co-Founder / CEO',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
-  {
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
-  {
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
-  {
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
-  {
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
-  {
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
-  {
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
-  // More people...
-];
+// export const mentorlist = [
+//   {
+//     name: 'Аскар Айтуов',
+//     role: 'DevRel Google for Developers и Google for Startups',
+//     imageUrl:
+//       './assets/aituov.jpg',
+//   },
+//   {
+//     name: 'Владимир Попов',
+//     role: 'PhD-candidate in TechPreneurship',
+//     imageUrl:
+//       './assets/popov.jpg',
+//   },
+//   {
+//     name: 'Мариям Таскинбаева',
+//     role: 'Обладатель диплома ACCA, IELTS 8,5',
+//     imageUrl:
+//       './assets/aigerim.jpg',
+//   },
+  
+ 
+// ];
 export const courses = [
   {
     id: 1,
@@ -214,5 +185,29 @@ export const accordions = [
   {
     id: 4,
     title: "What is included in my Skillex membership?",
+  },
+];
+
+export const programlist = [
+  {
+    name: 'Internship',
+    description: 'Internship',
+    imageSrc: 'https://i.pinimg.com/564x/d8/c1/0f/d8c10fd1be4a3728ab1f1ccdd7b7f74a.jpg',
+    imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+    href: 'https://wa.me/+77072542536',
+  },
+  {
+    name: 'Master degree abroad',
+    description: 'Master degree abroad',
+    imageSrc: 'https://i.pinimg.com/564x/44/8d/92/448d9289a93b36899d4aad5eb6a58f5c.jpg',
+    imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
+    href: 'https://wa.me/+77072542536',
+  },
+  {
+    name: 'For high school students',
+    description: 'For high school students',
+    imageSrc: 'https://i.pinimg.com/564x/90/f9/f3/90f9f3b9eefff63f4e58a680302068b3.jpg',
+    imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
+    href: 'https://wa.me/+77072542536',
   },
 ];

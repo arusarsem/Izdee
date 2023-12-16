@@ -106,9 +106,9 @@ const navigation = [
 
 
 
-  { name: 'Home', href: '#', current: true },
-  { name: 'Mentors', href: '#', current: false },
-  { name: 'Program', href: '#', current: false },
+  { name: 'Home', href: '/', current: true },
+  { name: 'Mentors', href: '/mentors', current: false },
+  { name: 'Program', href: '/programs', current: false },
   // { name: 'Sign in', href: '/login', current: false },
 ]
 

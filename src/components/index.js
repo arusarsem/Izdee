@@ -9,10 +9,10 @@ import Login from "./container/Login";
 import Signup from "./container/Signup";
 import MainPage from "./container/MainPage";
 import Profile from "./Profile";
-// import Mentors from "./container/Mentors";
+import Mentor from "./container/Mentor";
 import Program from "./container/Program";
 import Mentors from "./container/Mentors";
 import Register from "./container/Register";
 
 
-export { Navbar, Home, About, Courses, Teacher,Contact, Footer, Login,Signup, MainPage, Profile, Mentors, Program, Register};
+export { Navbar, Home, About, Courses, Teacher,Contact, Footer, Login,Signup, MainPage, Profile, Mentors, Program, Register, Mentor};

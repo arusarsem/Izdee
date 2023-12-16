@@ -1,4 +1,4 @@
-import {MainPage,Login, Profile, Mentors, Program, Register} from './components/index'
+import {MainPage,Login, Profile, Mentors, Program, Register, Mentor} from './components/index'
 import{BrowserRouter as Router,Routes,Route} from "react-router-dom"
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
         <Route exact path='/profile' element={<Profile/>}/>
         <Route exact path='/mentors' element={<Mentors/>}/>
         <Route exact path='/programs' element={<Program/>}/>
+        <Route exact path='/mentor' element={<Mentor/>}/>
       </Routes>
      </Router>
 

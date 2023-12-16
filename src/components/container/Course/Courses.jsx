@@ -24,13 +24,10 @@ const Courses = () => {
     <div className="section" id="courses">
       <div className="text-center">
         <div className="sm:text-3xl text-2xl font-bold mb-5">
-          Our Top <span className="text-Teal">Categories</span>
+          Our Top <span className="text-Teal">Programs</span>
         </div>
         <p className="text-sm text-gray leading-7 max-w-[700px] mx-auto">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-          tempora illo laborum ex cupiditate tenetur doloribus non velit atque
-          amet repudiandae ipsa modi numquam quas odit optio, totam voluptate
-          sit! Lorem ipsum dolor sit amet.
+          Start with us
         </p>
       </div>
       <motion.div

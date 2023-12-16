@@ -51,22 +51,22 @@ export const categories = [
   {
     id: 1,
     icon: <FiPenTool />,
-    category: "Design",
+    category: "Internship",
   },
   {
     id: 2,
     icon: <FaLaptopCode />,
-    category: "Development",
+    category: "Master Degree",
   },
   {
     id: 3,
     icon: <BsBarChartLine />,
-    category: "Business",
+    category: "For high school students",
   },
   {
     id: 4,
     icon: <MdOutlineScience />,
-    category: "Science",
+    category: "Courses",
   },
 ];
 
@@ -172,19 +172,19 @@ export const logos = [logo1, logo2, logo3, logo4, logo5, logo6];
 export const accordions = [
   {
     id: 1,
-    title: "What is Skillex?",
+    title: "What is Izde",
   },
   {
     id: 2,
-    title: "What can I learn from Skillex?",
+    title: "What can I learn from Izde?",
   },
   {
     id: 3,
-    title: "Can I teach on Skillex?",
+    title: "Can I teach on Izde?",
   },
   {
     id: 4,
-    title: "What is included in my Skillex membership?",
+    title: "What is included in my Izde membership?",
   },
 ];
 

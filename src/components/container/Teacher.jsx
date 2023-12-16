@@ -13,10 +13,7 @@ const Teacher = () => {
             Our Platform
           </div>
           <p className="text-sm leading-7 text-gray mb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-            perferendis debitis dolorum facilis culpa, quidem voluptate suscipit
-            deserunt. Magni neque at eos dolore dignissimos fugit repudiandae?
-            Aut laudantium asperiores et!
+           
           </p>
           <button className="py-3 px-4 bg-Teal text-white rounded-lg text-sm font-bold ">
             Start Teaching
@@ -31,10 +28,7 @@ const Teacher = () => {
             Our Platform
           </div>
           <p className="text-sm leading-7 text-gray mb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-            perferendis debitis dolorum facilis culpa, quidem voluptate suscipit
-            deserunt. Magni neque at eos dolore dignissimos fugit repudiandae?
-            Aut laudantium asperiores et!
+            
           </p>
           <button className="py-3 px-4 bg-Teal text-white rounded-lg text-sm font-bold ">
             Get Started

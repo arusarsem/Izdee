@@ -19,26 +19,25 @@ const Footer = () => {
         <div>
           <div className="font-bold mb-6">Get Started</div>
           <p className="text-sm leading-7">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo neque
-            saepe cumque. Veritatis sunt commodi
+            Educational website
           </p>
         </div>
         <div>
-          <div className="font-bold mb-6">Services</div>
+          <div className="font-bold mb-6">Internship</div>
           <div className="flex flex-col gap-4">
             <a href="" className="text-sm hover:underline">
-              Web Design
+              Master degree
             </a>
             <a href="" className="text-sm hover:underline">
-              Web Development
+              For high school students
             </a>
-            <a href="" className="text-sm hover:underline">
+            {/* <a href="" className="text-sm hover:underline">
               {" "}
               Science
             </a>
             <a href="" className="text-sm hover:underline">
               Digital Marketing
-            </a>
+            </a> */}
           </div>
         </div>
         <div>
@@ -60,8 +59,8 @@ const Footer = () => {
         </div>
         <div>
           <div className="font-bold mb-6">Follow us</div>
-          <div className="text-sm mb-4">skillexlearning@gmail.com</div>
-          <div className="text-sm">+959883271929</div>
+          <div className="text-sm mb-4">izde@gmail.com</div>
+          <div className="text-sm">+77072542536</div>
           <div className="flex gap-4 mt-4">
             <a href="" className="hover:scale-110 text-xl">
               <BsFacebook />

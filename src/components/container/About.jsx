@@ -14,10 +14,7 @@ const About = () => {
             <span className="text-Teal">online courses</span>
           </div>
           <p className="text-sm text-gray leading-7 mb-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repudiandae, totam earum. Minus deleniti repellat id! Ratione quia
-            eum, explicabo quos eos magni vel corporis voluptatibus, inventore
-            doloremque aliquam pariatur recusandae.
+          Izde is an online platform designed to provide information, resources, and learning opportunities for individuals seeking to acquire knowledge and skills in various subjects. These websites serve as virtual hubs for education, offering a wide range of content to cater to diverse learning needs. 
           </p>
           <button className="py-3 px-6 text-sm border border-solid border-gray rounded-lg font-bold">
             Know More

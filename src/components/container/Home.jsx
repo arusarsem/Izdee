@@ -32,16 +32,24 @@ const Home = () => {
           <div className="sm:text-[2.5rem] text-[1.825rem] font-bold">
             Your<br /> future <br /> starts here 
           </div>
-          <p className="text-sm leading-7 text-gray max-w-sm">
-           Start your journey with us
+          <p className="text-sm leading-7 text-gray max-w-sm ">
+            <a href="">
+            Start your journey with us
+
+            </a>
+           
           </p>
           <div className="mt-6">
             <button className="px-6 py-3 font-bold text-white bg-Teal rounded-lg mr-4 text-sm">
+              <a href="/programs" >
               Get Started
+
+              </a>
+              
             </button>
-            <button className="px-6 py-3 font-bold border border-solid border-gray rounded-lg text-sm">
+            {/* <button className="px-6 py-3 font-bold border border-solid border-gray rounded-lg text-sm">
               Discover
-            </button>
+            </button> */}
           </div>
         </div>
         <div className="md:w-[60%]">

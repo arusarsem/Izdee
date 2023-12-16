@@ -15,4 +15,4 @@ import Mentors from "./container/Mentors";
 import Register from "./container/Register";
 
 
-export { Navbar, Home, About, Courses, Teacher,Contact, Footer, Login,Signup, MainPage, Profile, Mentors, Program, Register, Mentor};
+export { Navbar, Home, About, Courses, Teacher,Contact, Footer, Login,Signup, MainPage, Profile, Mentors, Program, Register};

@@ -8,7 +8,7 @@ import Navbar from "./Navbar/Navbar";
 import Login from "./container/Login";
 import Signup from "./container/Signup";
 import MainPage from "./container/MainPage";
-import Profile from "./Profile";
+import Profile from "./container/Profile";
 // import Mentors from "./container/Mentors";
 // import Program from "./container/Program";
 

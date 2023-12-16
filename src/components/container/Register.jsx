@@ -25,7 +25,7 @@ const Register = () => {
           <label htmlFor="" className='absolute text-sm text-white duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6'>Confirm password</label>
           <AiOutlineUnlock className="absolute top-1 right-4" />
         </div>
-        <button type="submit" className='w-full mb- text-[18px] mt-6 rounded-full bg-white text-emerald-800 hover:bg-emerald-600 hover:text-white py-2 transition-colors-duration-300'>Sign In</button>
+        <button type="submit" className='w-full mb- text-[18px] mt-6 rounded-full bg-white text-emerald-800 hover:bg-emerald-600 hover:text-white py-2 transition-colors-duration-300'>Sign Up</button>
         <div>
           <span className="m-4">Already create an account? <Link className="text-blue-500" to="/login">Sign Up</Link></span>
         </div>

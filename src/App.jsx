@@ -13,6 +13,8 @@ function App() {
         <Route exact path='/mentors' element={<Mentors/>}/>
         <Route exact path='/programs' element={<Program/>}/>
         <Route exact path='/mentor' element={<Mentor/>}/>
+        {/* <Route exact path='/mentor' element={<Navbar/>}/> */}
+
       </Routes>
      </Router>
 

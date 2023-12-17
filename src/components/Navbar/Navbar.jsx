@@ -97,13 +97,19 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { database } from "../container/Firebase";
+import { useNavigate } from "react-router-dom";
+import { signOut } from "firebase/auth";
+import { useLinkClickHandler } from "react-router-dom";
 
 const navigation = [
-  { name: 'Home', href: '#', current: true },
+
+
+
+  { name: 'Home', href: '/', current: true },
   { name: 'Mentors', href: '/mentors', current: false },
   { name: 'Program', href: '/programs', current: false },
-  { name: 'Sign in', href: '/login', current: false },
-  { name: 'Mentor', href: '/mentor', current: false },
+  // { name: 'Sign in', href: '/login', current: false },
 ]
 
 function classNames(...classes) {
@@ -111,6 +117,13 @@ function classNames(...classes) {
 }
 
 export default function Example() {
+  const history=useNavigate()
+  const handleClick=()=>{
+    signOut(database).then(val=>{
+    console.log(val,"val")
+    history('/signup')
+    })
+  }
   return (
     <Disclosure as="nav" className="bg-gray-800">
       {({ open }) => (
@@ -211,8 +224,10 @@ export default function Example() {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="/login"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
+                            href="#"
+                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}onClick={handleClick}
+//           <button className="py-3 px-6 font-bold text-sm border border-solid rounded-lg border-gray" >
+
                           >
                             Sign out
                           </a>

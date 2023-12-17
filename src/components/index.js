@@ -8,11 +8,10 @@ import Navbar from "./Navbar/Navbar";
 import Login from "./container/Login";
 import Signup from "./container/Signup";
 import MainPage from "./container/MainPage";
-import Profile from "./Profile";
-import Mentor from "./container/Mentor";
-import Program from "./container/Program";
+import Profile from "./container/Profile";
 import Mentors from "./container/Mentors";
-import Register from "./container/Register";
+import Program from "./container/Program";
+// import Mentors from "./container/Mentors";
+// import Program from "./container/Program";
 
-
-export { Navbar, Home, About, Courses, Teacher,Contact, Footer, Login,Signup, MainPage, Profile, Mentors, Program, Register, Mentor};
+export { Navbar, Home, About, Courses, Teacher,Contact, Footer, Login,Signup, MainPage, Mentors, Program, Profile};

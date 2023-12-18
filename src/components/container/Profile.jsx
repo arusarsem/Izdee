@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
-
+import ToDo from '../container/ToDo/ToDo';
+import { Provider } from 'react-redux';
+import store from './Store/store';
+import { Link } from 'react-router-dom';
 const Profile = () => {
   
   const [user, setUser] = useState(null);
@@ -35,6 +38,8 @@ const Profile = () => {
       ) : (
         <p>Loading...</p>
       )}
+      
+      <span className="m-4">Have a plan? <Link to="/todo">To do List</Link></span>
     </div>
   );
 };

@@ -5,6 +5,10 @@
 @tailwind utilities;
 
 @layer base {
+  @font-face {
+    font-family: "Poppins";
+    src: url(./components/fonts/Poppins-Regular.ttf);
+  }
   img {
     @apply w-full
   }

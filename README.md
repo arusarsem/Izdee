@@ -36,8 +36,10 @@ Our project, titled IZDE, aims to provide a versatile platform accessible on bot
 8)Data Management
 9)Contributing
 10)Support and Contact
+
 **Introduction**
 IZDE is a multi-page application designed to cater to both mobile and desktop users. It offers functionalities such as profile management, mentorship interactions, a main interface, and additional pages, all accessible through a centralized Navbar.
+
 
 **Features**
 Profile Page: Allows users to manage personal information.
@@ -46,21 +48,26 @@ Main Page: Serves as the primary interface for the application.
 Responsive Navbar: Ensures seamless navigation across devices.
 Firebase Authentication: Provides secure user authentication.
 Local Data Management: Stores and manages data locally for enhanced performance.
+
 **Technology Stack**
 Frontend: React.js for dynamic UI components.
 Styling: Tailwind CSS for responsive design.
 Authentication: Firebase for user authorization.
 Data Management: Local storage for efficient data handling.
+
 **Usage**
 Clone Repository: Clone the project repository.
 Install Dependencies: Run npm install to install required packages.
 Start Development Server: Use npm start to launch the application.
+
 **Authentication**
 Firebase Authentication: Users can sign up or log in securely using Firebase services.
 Protected Routes: Certain pages are accessible only upon successful authentication.
+
 **Responsive Design**
 Navbar: Designed to adapt to different screen sizes for intuitive navigation.
 Pages: Components and pages optimized for mobile and desktop views.
+
 **Data Management**
 Local Storage: Utilizes local storage for efficient data management within the application.
 
